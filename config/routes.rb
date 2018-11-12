@@ -1,16 +1,25 @@
 Rails.application.routes.draw do
 
+<<<<<<< HEAD
   get "hello_world", to: 'static#hello_world'
+=======
+  get "/hello_world", to: 'static#hello_world'
+    root 'application#hello_world'
+>>>>>>> 41e70d1d439abc034cb696b005cc4eb2987410db
 
 #  get "/hello_world", to: 'static#hello_world'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
+<<<<<<< HEAD
     root 'static#hello_world'
 
 
   # root 'welcome#index'
+=======
+   #root 'welcome#index'
+>>>>>>> 41e70d1d439abc034cb696b005cc4eb2987410db
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
