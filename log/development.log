@@ -658,6 +658,7 @@ ActionView::MissingTemplate (Missing template static/hello world with {:locale=>
   Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
   Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
   Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (36.6ms)
+<<<<<<< HEAD
 
 
 Started GET "/" for 72.229.188.23 at 2018-10-25 03:17:03 +0000
@@ -1238,3 +1239,5 @@ Started GET "/" for 72.229.188.23 at 2018-10-25 04:16:19 +0000
 Processing by StaticController#hello_world as HTML
   Rendered text template (0.0ms)
 Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+=======
+>>>>>>> 41e70d1d439abc034cb696b005cc4eb2987410db
